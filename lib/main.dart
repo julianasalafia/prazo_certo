@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prazo_certo/app/feature/pages/home_view.dart';
-import 'package:prazo_certo/app/styles/theme.dart';
+import 'package:prazo_certo/app/core/styles/theme.dart';
 
 void main() {
   runApp(const MyApp());
