@@ -1,9 +1,27 @@
-import 'package:prazo_certo/app/core/entities/meat_entity.dart';
-
 class CategoryEntity {
-  final List<MeatEntity> meats;
+  final int? id;
+  final String name;
+  final String status;
 
   CategoryEntity({
-    required this.meats,
+    this.id,
+    required this.name,
+    required this.status,
   });
+
+  factory CategoryEntity.fromJson(Map<String, dynamic> json) {
+    return CategoryEntity(
+      id: json['id_categoria'],
+      name: json['nome_categoria'],
+      status: json['status_categoria'],
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id_categoria': id,
+      'nome_categoria': name,
+      'status_categoria': status,
+    };
+  }
 }
