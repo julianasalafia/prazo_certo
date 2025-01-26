@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prazo_certo/app/feature/pages/home_view.dart';
 import 'package:prazo_certo/app/core/styles/theme.dart';
+import 'package:prazo_certo/app/feature/pages/home_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Prazo Certo',
       theme: PCTheme.theme,
-      home: const HomeView(),
+      home: HomeView(),
     );
   }
 }

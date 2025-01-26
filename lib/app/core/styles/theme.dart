@@ -40,7 +40,7 @@ class PCTheme {
     ),
     textTheme: const TextTheme(
       titleLarge: TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 34,
         fontWeight: FontWeight.w700,
         height: 1.2,
@@ -51,10 +51,10 @@ class PCTheme {
         fontSize: 22,
         fontWeight: FontWeight.w500,
         height: 1.2,
-        decorationColor: Colors.white,
+        decorationColor: Colors.black12,
       ),
       bodyMedium: TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 16,
         fontWeight: FontWeight.w400,
         height: 1.5,
